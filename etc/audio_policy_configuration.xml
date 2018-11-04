@@ -18,7 +18,7 @@
     <!-- version section contains a “version” tag in the form “major.minor” e.g version=”1.0” -->
 
     <!-- Global configuration Decalaration -->
-    <globalConfiguration speaker_drc_enabled="true"/>
+    <globalConfiguration speaker_drc_enabled="false"/>
 
 
     <!-- Modules section:
@@ -83,7 +83,7 @@
                         <gain name="" mode="AUDIO_GAIN_MODE_JOINT"
                                 minValueMB="-8400" 
                                 maxValueMB="4000" 
-                                defaultValueMB="4000" 
+                                defaultValueMB="0" 
                                 stepValueMB="100"/>
                     </gains>
                 </devicePort>
